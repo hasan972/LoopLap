@@ -13,7 +13,7 @@
 </head>
 <body>
   <!.....NAVIGATION SECTION.....>
-  <nav class="navbar bg-dark navbar-dark navbar-expand-md"> <!All the navbar element get vertical>
+  <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top"> <!All the navbar element get vertical>
     <div class="container">
       <a href="" class="navbar-brand">Looplab</a> <!LoopLab light colour>
       <button class="navbar-toggler" type="button" data-target="#navbarNa" data-toggle="collapse" ><!using collapse to md and click and show the navbar>
@@ -22,7 +22,7 @@
        <div class="collapse navbar-collapse" id="navbarNa">
          <ul class="navbar-nav ml-auto">  <!All The dot id gone>
            <li class="nav-item">
-             <a class="nav-link" href="#home-top-section">Home</a>
+             <a class="nav-link" href="#home-section">Home</a>
            </li class="nav-item">
            <li>
              <a class="nav-link" href="#explore-head-section">Explore</a>
@@ -44,10 +44,56 @@
       <div class="home-inner">
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-xl-8 col-md-12 d-none d-sm-block">
               <h1 class="display-4">Build<strong> social</strong> profile and gai revenue and <strong>profile</strong></h1>
+              <div class="d-flex flex-raw">
+                <div class="p-4 align-self-start mt-2">
+                  <i class="fa fa-check "></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus laborum et esse dicta autem quas cumque incidunt eum commodi amet?</p>
+                </div>
+              </div>
+              <div class="d-flex flex-raw">
+                <div class="p-4 align-self-start mt-2">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iusto laudantium quae laborum labore repudiandae, quis recusandae at earum iste error! Tempora ut, sit reprehenderit.</p>
+                </div>
+              </div>
+              <div class="d-flex flex-raw">
+                <div class="p-4 align-self-start mt-2">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus laborum et esse dicta autem quas cumque incidunt eum commodi amet?</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-xl-4 col-md-12">
+              <div class="card bg-primary card-form text-center">
+                <div class="card-body">
+                  <h3>Sign Up Today</h3>
+                  <p> Please fill out this form to register</p>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" placeholder="Username" name="username" class="form-control form-control-lg">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" placeholder="E-mail" name="email" class="form-control form-control-lg">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" placeholder="Password"name="password1" class="form-control form-control-lg">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" placeholder="Conmirm Password"name="password2" class="form-control form-control-lg">
+                    </div>
+                    <input type="submit" name="sub" value="Submit" class="btn btn-outline-light btn-block">
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>

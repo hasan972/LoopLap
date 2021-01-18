@@ -1,5 +1,16 @@
+$body-bg:#333;
+$font-color:#fff;
+body{
+  background:$body-bg;
+  color: $font-color;
+}
 .navbar{
   border-bottom: 3px solid #008ed6;
   background: #292b2c;
+
   opacity: 0.7;
+}
+.display{
+  background:#292b2c;
+  color: $font-color;
 }

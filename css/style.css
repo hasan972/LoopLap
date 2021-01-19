@@ -45,6 +45,12 @@ body {
   color: #008ed6;
   border-radius: 5px:
 }
+#share-main-section .fa{
+  font-size: 30px;
+  background: #333;
+  color: #fff;
+  border-radius: 5px:
+}
 
 
 @media (max-width: 768px) {
